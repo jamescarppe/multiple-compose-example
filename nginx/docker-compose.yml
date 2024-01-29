@@ -4,6 +4,6 @@ services:
     image: nginx:latest
     restart: always
     ports:
-      - "3002:80"
+      - "3022:80"
     volumes:
       - ./static:/usr/share/nginx/html
